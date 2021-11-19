@@ -23,7 +23,7 @@ public class HelloWorldService {
 		logger.debug("getTitle() is executed! $name : {}", name);
 
 		if(StringUtils.isEmpty(name)){
-			return "Hello Docker";
+			return "Hi Docker";
 		}else{
 			return "Hello " + name;
 		}
